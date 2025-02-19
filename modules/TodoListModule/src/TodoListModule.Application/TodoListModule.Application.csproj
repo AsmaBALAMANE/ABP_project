@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TodoListModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.FluentValidation" Version="9.0.4" />
+    <ProjectReference Include="..\TodoListModule.Application.Contracts\TodoListModule.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TodoListModule.Domain\TodoListModule.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

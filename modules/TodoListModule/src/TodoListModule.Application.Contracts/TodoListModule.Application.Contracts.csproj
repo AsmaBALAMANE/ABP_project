@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <RootNamespace>TodoListModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="9.0.4" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="9.0.4" />
+    <ProjectReference Include="..\TodoListModule.Domain.Shared\TodoListModule.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

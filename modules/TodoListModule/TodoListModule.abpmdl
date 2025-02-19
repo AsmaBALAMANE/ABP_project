@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "TodoListModule.Domain.Shared": {
+      "path": "src/TodoListModule.Domain.Shared/TodoListModule.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Domain": {
+      "path": "src/TodoListModule.Domain/TodoListModule.Domain.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Application.Contracts": {
+      "path": "src/TodoListModule.Application.Contracts/TodoListModule.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Application": {
+      "path": "src/TodoListModule.Application/TodoListModule.Application.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.EntityFrameworkCore": {
+      "path": "src/TodoListModule.EntityFrameworkCore/TodoListModule.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.MongoDB": {
+      "path": "src/TodoListModule.MongoDB/TodoListModule.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.HttpApi": {
+      "path": "src/TodoListModule.HttpApi/TodoListModule.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.HttpApi.Client": {
+      "path": "src/TodoListModule.HttpApi.Client/TodoListModule.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.TestBase": {
+      "path": "test/TodoListModule.TestBase/TodoListModule.TestBase.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.EntityFrameworkCore.Tests": {
+      "path": "test/TodoListModule.EntityFrameworkCore.Tests/TodoListModule.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.MongoDB.Tests": {
+      "path": "test/TodoListModule.MongoDB.Tests/TodoListModule.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.Domain.Tests": {
+      "path": "test/TodoListModule.Domain.Tests/TodoListModule.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.Application.Tests": {
+      "path": "test/TodoListModule.Application.Tests/TodoListModule.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.HttpApi.Host": {
+      "path": "host/TodoListModule.HttpApi.Host/TodoListModule.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.Web": {
+      "path": "src/TodoListModule.Web/TodoListModule.Web.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/TodoListModule.HttpApi.Client.ConsoleTestApp/TodoListModule.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "TodoListModule.Web.Host": {
+      "path": "host/TodoListModule.Web.Host/TodoListModule.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.AuthServer": {
+      "path": "host/TodoListModule.AuthServer/TodoListModule.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.Host.Shared": {
+      "path": "host/TodoListModule.Host.Shared/TodoListModule.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.Web.Unified": {
+      "path": "host/TodoListModule.Web.Unified/TodoListModule.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.Blazor": {
+      "path": "src/TodoListModule.Blazor/TodoListModule.Blazor.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Blazor.Host": {
+      "path": "host/TodoListModule.Blazor.Host/TodoListModule.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "TodoListModule.Blazor.Server": {
+      "path": "src/TodoListModule.Blazor.Server/TodoListModule.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Blazor.WebAssembly": {
+      "path": "src/TodoListModule.Blazor.WebAssembly/TodoListModule.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "TodoListModule.Blazor.Server.Host": {
+      "path": "host/TodoListModule.Blazor.Server.Host/TodoListModule.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

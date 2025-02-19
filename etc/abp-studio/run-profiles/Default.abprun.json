@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "MainApp.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44324",
+      "path": "../../../src/MainApp.Web/MainApp.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
