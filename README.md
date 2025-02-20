@@ -28,7 +28,7 @@ This is a layered monolith application that consists of the following applicatio
 * `MainApp.Web`: ASP.NET Core MVC / Razor Pages application that is the essential web application of the solution.
 * `TodoListModule`: Contains associated logic to manage the TodoList.
 
-### To Authorise
+### for authorization
 
 Use the default Abp user:
 
