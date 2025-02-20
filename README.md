@@ -28,6 +28,13 @@ This is a layered monolith application that consists of the following applicatio
 * `MainApp.Web`: ASP.NET Core MVC / Razor Pages application that is the essential web application of the solution.
 * `TodoListModule`: Contains associated logic to manage the TodoList.
 
+### To Authorise
+
+Use the default Abp user:
+
+* `username`: admin
+* `Password`: 1q2w3E*
+
 #### Generating a Signing Certificate
 
 In the production environment, you need to use a production signing certificate. ABP Framework sets up signing and encryption certificates in your application and expects an `openiddict.pfx` file in your application.
